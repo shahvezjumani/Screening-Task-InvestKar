@@ -1,0 +1,14 @@
+{
+  "name": "investkar-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "elysia": "^1.2.25",
+    "cheerio": "^1.0.0",
+    "cron": "^3.5.0",
+    "@elysiajs/cors": "^1.2.0"
+  }
+}

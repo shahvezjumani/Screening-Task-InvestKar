@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# bun
+bun.lock
+.bun/
+
+# data (scraped output)
+data/
+
+# env files
+.env*
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+
+# misc
+.DS_Store
+*.pem
+
+# typescript
+*.tsbuildinfo
